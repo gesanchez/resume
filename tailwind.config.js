@@ -13,7 +13,13 @@ export default {
       sans: '"Raleway", sans-serif',
       serif: '"Poppings"'
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#023047",
+        secondary: '#FB8500',
+        bodytext: '#023047'
+,      },
+    },
   },
   plugins: [],
 }

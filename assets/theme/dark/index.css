@@ -1,3 +1,8 @@
 @tailwind base;
+@layer base { 
+    html { 
+      @apply #FFF; 
+    } 
+} 
 @tailwind components;
 @tailwind utilities;

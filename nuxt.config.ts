@@ -40,5 +40,20 @@ export default defineNuxtConfig({
       redirectOn: 'root' // recommended
     },
     langDir: 'lang',
+    customRoutes: 'config',
+    pages: {
+      skills: {
+        en: '/skills',
+        es: '/habilidades'
+      },
+      getInTouch: {
+        en: '/getInTouch',
+        es: '/contacto'
+      },
+      works: {
+        en: '/works',
+        es: '/experiencia-laboral'
+      }
+    }
   }
 })

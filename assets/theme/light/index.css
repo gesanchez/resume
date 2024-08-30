@@ -1,3 +1,8 @@
 @tailwind base;
+@layer base { 
+    html { 
+      @apply text-bodytext; 
+    } 
+} 
 @tailwind components;
 @tailwind utilities;
